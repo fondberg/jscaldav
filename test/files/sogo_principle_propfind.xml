@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D:multistatus xmlns:a="urn:ietf:params:xml:ns:caldav" xmlns:b="http://calendarserver.org/ns/" xmlns:D="DAV:">
+    <D:response>
+        <D:href>/SOGo/dav/niklas/</D:href>
+        <D:propstat>
+            <D:status>HTTP/1.1 200 OK</D:status>
+            <D:prop>
+                <a:calendar-home-set>
+                    <D:href xmlns:D="DAV:">/SOGo/dav/niklas/Calendar/</D:href>
+                </a:calendar-home-set>
+                <a:calendar-user-address-set>
+                    <D:href xmlns:D="DAV:">mailto:niklas@vireone.se</D:href>
+                    <D:href xmlns:D="DAV:">/SOGo/dav/niklas/</D:href>
+                </a:calendar-user-address-set>
+                <D:current-user-principal xmlns:D="DAV:">
+                    <D:href>/SOGo/dav/niklas</D:href>
+                </D:current-user-principal>
+                <D:displayname>Niklas Fondberg</D:displayname>
+                <b:email-address-set>
+                    <cso:email-address xmlns:cso="http://calendarserver.org/ns/">niklas@vireone.se</cso:email-address>
+                    <D:href xmlns:D="DAV:">/SOGo/dav/niklas/</D:href>
+                </b:email-address-set>
+                <D:principal-collection-set xmlns:D="DAV:">
+                    <D:href>/SOGo/dav/</D:href>
+                </D:principal-collection-set>
+                <D:principal-URL>
+                    <D:href xmlns:D="DAV:">/SOGo/dav/niklas/</D:href>
+                </D:principal-URL>
+                <D:resource-id>urn:uuid:niklas</D:resource-id>
+                <a:schedule-inbox-URL>
+                    <D:href xmlns:D="DAV:">/SOGo/dav/niklas/Calendar/inbox/</D:href>
+                </a:schedule-inbox-URL>
+                <a:schedule-outbox-URL>
+                    <D:href xmlns:D="DAV:">/SOGo/dav/niklas/Calendar/personal/</D:href>
+                </a:schedule-outbox-URL>
+                <D:supported-report-set xmlns:n1="urn:inverse:params:xml:ns:inverse-dav" xmlns:n2="urn:ietf:params:xml:ns:carddav" xmlns:D="DAV:">
+                    <D:supported-report>
+                        <D:report>
+                            <n1:acl-query/>
+                        </D:report>
+                    </D:supported-report>
+                    <D:supported-report>
+                        <D:report>
+                            <n1:collection-query/>
+                        </D:report>
+                    </D:supported-report>
+                    <D:supported-report>
+                        <D:report>
+                            <n1:user-query/>
+                        </D:report>
+                    </D:supported-report>
+                    <D:supported-report>
+                        <D:report>
+                            <D:expand-property/>
+                        </D:report>
+                    </D:supported-report>
+                    <D:supported-report>
+                        <D:report>
+                            <n2:addressbook-query/>
+                        </D:report>
+                    </D:supported-report>
+                </D:supported-report-set>
+            </D:prop>
+        </D:propstat>
+        <D:propstat>
+            <D:status>HTTP/1.1 404 Not Found</D:status>
+            <D:prop>
+                <b:notification-URL/>
+            </D:prop>
+        </D:propstat>
+    </D:response>
+    <D:response>
+        <D:href>/SOGo/dav/niklas/freebusy.ifb</D:href>
+        <D:propstat>
+            <D:status>HTTP/1.1 200 OK</D:status>
+            <D:prop>
+                <D:current-user-principal xmlns:D="DAV:">
+                    <D:href>/SOGo/dav/niklas</D:href>
+                </D:current-user-principal>
+                <D:displayname>freebusy.ifb</D:displayname>
+                <D:principal-collection-set xmlns:D="DAV:">
+                    <D:href>/SOGo/dav/</D:href>
+                </D:principal-collection-set>
+                <D:supported-report-set xmlns:n1="urn:inverse:params:xml:ns:inverse-dav" xmlns:D="DAV:">
+                    <D:supported-report>
+                        <D:report>
+                            <n1:acl-query/>
+                        </D:report>
+                    </D:supported-report>
+                </D:supported-report-set>
+            </D:prop>
+        </D:propstat>
+        <D:propstat>
+            <D:status>HTTP/1.1 404 Not Found</D:status>
+            <D:prop>
+                <a:calendar-home-set/>
+                <a:calendar-user-address-set/>
+                <b:email-address-set/>
+                <b:notification-URL/>
+                <D:principal-URL/>
+                <D:resource-id/>
+                <a:schedule-inbox-URL/>
+                <a:schedule-outbox-URL/>
+            </D:prop>
+        </D:propstat>
+    </D:response>
+    <D:response>
+        <D:href>/SOGo/dav/niklas/Calendar/</D:href>
+        <D:propstat>
+            <D:status>HTTP/1.1 200 OK</D:status>
+            <D:prop>
+                <D:current-user-principal xmlns:D="DAV:">
+                    <D:href>/SOGo/dav/niklas</D:href>
+                </D:current-user-principal>
+                <D:displayname>Calendar</D:displayname>
+                <D:principal-collection-set xmlns:D="DAV:">
+                    <D:href>/SOGo/dav/</D:href>
+                </D:principal-collection-set>
+                <D:principal-URL>
+                    <D:href xmlns:D="DAV:">/SOGo/dav/niklas/Calendar/</D:href>
+                </D:principal-URL>
+                <D:supported-report-set xmlns:n1="urn:inverse:params:xml:ns:inverse-dav" xmlns:n2="urn:ietf:params:xml:ns:carddav" xmlns:D="DAV:">
+                    <D:supported-report>
+                        <D:report>
+                            <n1:acl-query/>
+                        </D:report>
+                    </D:supported-report>
+                    <D:supported-report>
+                        <D:report>
+                            <D:expand-property/>
+                        </D:report>
+                    </D:supported-report>
+                    <D:supported-report>
+                        <D:report>
+                            <n2:addressbook-query/>
+                        </D:report>
+                    </D:supported-report>
+                </D:supported-report-set>
+            </D:prop>
+        </D:propstat>
+        <D:propstat>
+            <D:status>HTTP/1.1 404 Not Found</D:status>
+            <D:prop>
+                <a:calendar-home-set/>
+                <a:calendar-user-address-set/>
+                <b:email-address-set/>
+                <b:notification-URL/>
+                <D:resource-id/>
+                <a:schedule-inbox-URL/>
+                <a:schedule-outbox-URL/>
+            </D:prop>
+        </D:propstat>
+    </D:response>
+    <D:response>
+        <D:href>/SOGo/dav/niklas/Contacts/</D:href>
+        <D:propstat>
+            <D:status>HTTP/1.1 200 OK</D:status>
+            <D:prop>
+                <D:current-user-principal xmlns:D="DAV:">
+                    <D:href>/SOGo/dav/niklas</D:href>
+                </D:current-user-principal>
+                <D:displayname>Contacts</D:displayname>
+                <D:principal-collection-set xmlns:D="DAV:">
+                    <D:href>/SOGo/dav/</D:href>
+                </D:principal-collection-set>
+                <D:principal-URL>
+                    <D:href xmlns:D="DAV:">/SOGo/dav/niklas/Contacts/</D:href>
+                </D:principal-URL>
+                <D:supported-report-set xmlns:n1="urn:inverse:params:xml:ns:inverse-dav" xmlns:n2="urn:ietf:params:xml:ns:carddav" xmlns:D="DAV:">
+                    <D:supported-report>
+                        <D:report>
+                            <n1:acl-query/>
+                        </D:report>
+                    </D:supported-report>
+                    <D:supported-report>
+                        <D:report>
+                            <D:expand-property/>
+                        </D:report>
+                    </D:supported-report>
+                    <D:supported-report>
+                        <D:report>
+                            <n2:addressbook-query/>
+                        </D:report>
+                    </D:supported-report>
+                </D:supported-report-set>
+            </D:prop>
+        </D:propstat>
+        <D:propstat>
+            <D:status>HTTP/1.1 404 Not Found</D:status>
+            <D:prop>
+                <a:calendar-home-set/>
+                <a:calendar-user-address-set/>
+                <b:email-address-set/>
+                <b:notification-URL/>
+                <D:resource-id/>
+                <a:schedule-inbox-URL/>
+                <a:schedule-outbox-URL/>
+            </D:prop>
+        </D:propstat>
+    </D:response>
+    <D:response>
+        <D:href>/SOGo/dav/niklas/Mail/</D:href>
+        <D:propstat>
+            <D:status>HTTP/1.1 200 OK</D:status>
+            <D:prop>
+                <D:current-user-principal xmlns:D="DAV:">
+                    <D:href>/SOGo/dav/niklas</D:href>
+                </D:current-user-principal>
+                <D:displayname>Mail</D:displayname>
+                <D:principal-collection-set xmlns:D="DAV:">
+                    <D:href>/SOGo/dav/</D:href>
+                </D:principal-collection-set>
+                <D:principal-URL>
+                    <D:href xmlns:D="DAV:">/SOGo/dav/niklas/Mail/</D:href>
+                </D:principal-URL>
+                <D:supported-report-set xmlns:n1="urn:inverse:params:xml:ns:inverse-dav" xmlns:n2="urn:ietf:params:xml:ns:carddav" xmlns:D="DAV:">
+                    <D:supported-report>
+                        <D:report>
+                            <n1:acl-query/>
+                        </D:report>
+                    </D:supported-report>
+                    <D:supported-report>
+                        <D:report>
+                            <D:expand-property/>
+                        </D:report>
+                    </D:supported-report>
+                    <D:supported-report>
+                        <D:report>
+                            <n2:addressbook-query/>
+                        </D:report>
+                    </D:supported-report>
+                </D:supported-report-set>
+            </D:prop>
+        </D:propstat>
+        <D:propstat>
+            <D:status>HTTP/1.1 404 Not Found</D:status>
+            <D:prop>
+                <a:calendar-home-set/>
+                <a:calendar-user-address-set/>
+                <b:email-address-set/>
+                <b:notification-URL/>
+                <D:resource-id/>
+                <a:schedule-inbox-URL/>
+                <a:schedule-outbox-URL/>
+            </D:prop>
+        </D:propstat>
+    </D:response>
+</D:multistatus>

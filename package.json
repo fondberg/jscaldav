@@ -1,0 +1,36 @@
+{
+  "name": "jscaldav",
+  "version": "1.0.0",
+  "description": "CalDav client library with support for basic discovery actions and handling of calendar events",
+  "scripts": {
+    "jsdoc": "jsdoc jscaldav.js lib/*.js README.md",
+    "test2": "tap test/*.js",
+    "test": "tap test/*.js --coverage",
+    "posttest": "tap --coverage-report=lcov | codecov"
+  },
+  "author": "Niklas Fondberg <niklas.fondberg@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/fonzy2013/jscaldav/blob/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fonzy2013/jscaldav.git"
+  },
+  "main": "jscaldav.js",
+  "dependencies": {
+    "ical.js": "^1.2.1",
+    "libxmljs": "^0.18.0",
+    "moment": "^2.14.1",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "codecov": "^1.0.1",
+    "jsdoc": "^3.4.0",
+    "sinon": "^1.17.4",
+    "tap": "^6.1.1",
+    "tape": "^4.6.0"
+  }
+}
