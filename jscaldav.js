@@ -275,8 +275,8 @@ var JsCalDav = module.exports = function(config) {
     */
     this.deleteEvent = function(url, user, pass, etag, cb) {
         /*
-        DELETE /SOGo/dav/niklas/Calendar/personal/6f91f779-6cd6-4650-b499-9e8d0c2b0a17.ics HTTP/1.1
-        Host: zentyal.vireone.se
+        DELETE /SOGo/dav/username/Calendar/personal/uuid.ics HTTP/1.1
+        Host: calendarserver.vireone.se
         Accept-Encoding: gzip, deflate
         Authorization: Basic bmlrbGFzOmhvYmJlMTIzNA==
         Connection: keep-alive
