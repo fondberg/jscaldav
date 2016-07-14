@@ -1,12 +1,16 @@
 # jscaldav
 
-[![NPM Version][npm-image]][npm-url]
-[![NPM Downloads][downloads-image]][downloads-url]
-[![Node.js Version][node-version-image]][node-version-url]
-[![Build Status][travis-image]][travis-url]
-[![Test Coverage][coveralls-image]][coveralls-url]
-
 CalDav client library with support for basic discovery actions and handling of calendar events for node.js.
+
+### Discovery support:
+- Calendar home discovery through DAV principle URL
+- List calendars from known calendarhome URL
+- Get a calendar URL from calendar name
+
+### Event support
+- List events (currently only from the last 60 days)
+- Create event from iCalendar string
+- Update event
 
 ## Installation
 
